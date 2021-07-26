@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/test-task-solbegsoft/static/css/main.3cfb29fc.chunk.css",
+    "main.js": "/test-task-solbegsoft/static/js/main.833f03d7.chunk.js",
+    "main.js.map": "/test-task-solbegsoft/static/js/main.833f03d7.chunk.js.map",
+    "runtime-main.js": "/test-task-solbegsoft/static/js/runtime-main.920fa319.js",
+    "runtime-main.js.map": "/test-task-solbegsoft/static/js/runtime-main.920fa319.js.map",
+    "static/js/2.109aafbd.chunk.js": "/test-task-solbegsoft/static/js/2.109aafbd.chunk.js",
+    "static/js/2.109aafbd.chunk.js.map": "/test-task-solbegsoft/static/js/2.109aafbd.chunk.js.map",
+    "index.html": "/test-task-solbegsoft/index.html",
+    "static/css/main.3cfb29fc.chunk.css.map": "/test-task-solbegsoft/static/css/main.3cfb29fc.chunk.css.map",
+    "static/js/2.109aafbd.chunk.js.LICENSE.txt": "/test-task-solbegsoft/static/js/2.109aafbd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.920fa319.js",
+    "static/js/2.109aafbd.chunk.js",
+    "static/css/main.3cfb29fc.chunk.css",
+    "static/js/main.833f03d7.chunk.js"
+  ]
+}
