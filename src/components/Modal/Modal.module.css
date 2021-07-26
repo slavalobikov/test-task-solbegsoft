@@ -1,0 +1,97 @@
+.modal {
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+
+}
+.wrap {
+    width: 621px;
+    min-height: 425px;
+    background-color: #ffffff;
+    overflow-y: auto;
+    position: relative;
+}
+
+.close {
+    width: 35px;
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    top:20px;
+    right: 20px;
+    transition: all 0.5s ease-out;}
+.close:hover {
+    opacity: 0.3;
+    transition: all 0.5s ease-out;
+}
+
+.close:before, .close:after {
+    position: absolute;
+    z-index: 9;
+    left: 15px;
+    content: ' ';
+    height: 26px;
+    width: 2px;
+    background-color: #333;
+}
+.close:before {
+    transform: rotate(45deg);
+}
+.close:after {
+    transform: rotate(-45deg);
+}
+
+.img {
+    width: 331px;
+    height: 205px;
+    margin: 30px 15px 30px 30px;
+
+}
+
+.photoAndComment {
+    position: relative;
+    top:5px;
+    left: 30px;
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nocomments {
+    margin-top: 30px;
+}
+
+
+@media (max-width: 620px) {
+    .wrap {
+        width: 100vw;
+        height: 100vh;
+    }
+    .modal {
+        background-color: white;
+        overflow-y: hidden;
+        width: 100%;
+    }
+    .img {
+        width: 100vw !important;
+        height: auto !important;
+        margin:0!important;
+    }
+    .nocomments {
+        margin-top: 25px;
+        margin-left: 22px;
+        margin-bottom: 25px;
+    }
+}

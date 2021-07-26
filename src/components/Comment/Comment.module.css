@@ -1,0 +1,25 @@
+.comment {
+    font-size: 13px;
+    max-width: 185px;
+    min-width: 180px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    word-wrap: break-word;
+}
+
+.time {
+    line-height: 15px;
+    color: #999999;
+    margin-bottom: 5px;
+}
+
+.text {
+
+}
+
+@media (max-width: 620px) {
+    .comment {
+        margin-top: 25px;
+        margin-left: 22px;
+    }
+}

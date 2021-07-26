@@ -1,0 +1,82 @@
+.input {
+    width: 331px;
+    height: 30px;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    margin-left: 30px;
+    font-size: 13px;
+    line-height: 15.5;
+    font-family: Roboto;
+    margin-bottom: 22px;
+}
+
+.input::placeholder {
+    padding-left: 11px;
+}
+.btn {
+    margin-left: 30px;
+    width: 331px;
+    height: 30px;
+    background: #4997D0;
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color:#fff;
+    cursor: pointer;
+    margin-bottom: 22px;
+
+}
+
+.err {
+    margin-left: 10px;
+    color:deeppink;
+}
+
+.btnDisabled::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 4px solid transparent;
+    border-top-color: #ffffff;
+    border-radius: 50%;
+    animation: button-loading-spinner 1s ease infinite;
+}
+
+@keyframes button-loading-spinner {
+    from {
+        transform: rotate(0turn);
+    }
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+@media (max-width: 620px) {
+    .input {
+        width: 80%;
+        margin-left: 22px;
+    }
+    .btn {
+        width: 81%;
+        margin-left: 22px;
+    }
+    .form {
+        width: 100%;
+    }
+    .err {
+        display: block;
+        margin-left: 22px;
+        margin-top: -20px;
+    }
+}

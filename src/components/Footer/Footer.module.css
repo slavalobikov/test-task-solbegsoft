@@ -1,0 +1,19 @@
+.footer {
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: calc( 100% - 40px);
+    margin:0 20px;
+    border-top: 1px solid #CCCCCC;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 16px;
+    color:#CCCCCC;
+    background-color: #fff;
+    cursor: default;
+    user-select:none;
+
+}
